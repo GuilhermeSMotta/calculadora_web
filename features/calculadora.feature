@@ -46,3 +46,10 @@ Funcionalidade: Calculadora Web
     E eu clico no botão "/"
     E eu clico no botão "="
     Então o visor deve exibir "Erro"
+  
+  Cenário: Divisão por zero
+    Quando eu clico no botão "5"
+    E eu clico no botão "/"
+    E eu clico no botão "0"
+    E eu clico no botão "="
+    Então o visor deve exibir "Infinity"
